@@ -1,27 +1,52 @@
-# California Housing Price Prediction
+# 🏡 House Price Prediction – Linear Regression
 
-A beginner-friendly regression project using the California Housing dataset.
+A beginner-friendly machine learning project that predicts California housing prices using a linear regression model trained on the **California Housing dataset**.
 
-## 📊 Problem
-Predict median house value (`MedHouseVal`) using features like income, house age, rooms, etc.
+## 📂 Project Structure
 
-## ⚙️ Tools
-- Python, Pandas, Matplotlib
-- Scikit-learn (LinearRegression)
+House-Price-Prediction/
+├── House Price Prediction - Linear Regression.ipynb
+├── requirements.txt
+└── README.md
 
-## ✅ Workflow
-1. Loaded & explored the dataset
-2. Visualized distributions
-3. Trained a Linear Regression model
-4. Evaluated using MSE & R² Score
-5. Plotted predicted vs actual values
+## 📊 Dataset
+
+- **Source**: `sklearn.datasets.fetch_california_housing()`
+- **Features**: Median income, house age, average rooms, location, etc.
+- **Target**: Median house value (`MedHouseVal`)
+
+## 🧠 ML Workflow
+
+1. **Data Exploration**
+   - Used `pandas`, `seaborn`, and `matplotlib` for analysis and visualization.
+2. **Preprocessing**
+   - Checked for nulls, outliers, and feature distributions.
+3. **Modeling**
+   - Applied **Linear Regression** from `scikit-learn`.
+   - Split dataset into training and testing sets.
+4. **Evaluation**
+   - Used **Mean Squared Error (MSE)** and **R² score**.
+   - Visualized predictions vs actual values using scatter plots.
 
 ## 📈 Results
-- MSE: 0.5559
-- R² Score: 0.5758
 
-## 📝 Next Steps
-- Feature Scaling
-- Try Decision Tree or Random Forest
-- Improve prediction accuracy
+- **MSE**: `0.5559`
+- **R² Score**: `0.5758`
 
+> Interpretation: The model explains ~57.6% of the variance in housing prices.
+
+## 📦 Requirements
+
+Install dependencies with:
+pip install -r requirements.txt
+
+
+🚀 Future Work
+Apply feature scaling and transformation
+
+Try other regression models (e.g. Ridge, Lasso, Decision Tree)
+
+Improve performance using grid search and cross-validation
+
+👩‍💻 Author
+Arfa Tariq — Aspiring AI/ML Engineer with a practical-first learning mindset
