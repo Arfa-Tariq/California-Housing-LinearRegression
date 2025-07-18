@@ -5,8 +5,11 @@ A beginner-friendly machine learning project that predicts California housing pr
 ## 📂 Project Structure
 
 House-Price-Prediction/
+
 ├── House Price Prediction - Linear Regression.ipynb
+
 ├── requirements.txt
+
 └── README.md
 
 ## 📊 Dataset
@@ -38,15 +41,16 @@ House-Price-Prediction/
 ## 📦 Requirements
 
 Install dependencies with:
+
 pip install -r requirements.txt
 
 
-🚀 Future Work
+## 🚀 Future Work
 Apply feature scaling and transformation
 
 Try other regression models (e.g. Ridge, Lasso, Decision Tree)
 
 Improve performance using grid search and cross-validation
 
-👩‍💻 Author
+## 👩‍💻 Author
 Arfa Tariq — Aspiring AI/ML Engineer with a practical-first learning mindset
